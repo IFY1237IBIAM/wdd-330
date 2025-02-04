@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Search Products</title>
+  <link rel="stylesheet" href="styles/product.css" />
+  <script src="scripts/search.js.js" defer></script>
+  <script src="scripts/product-list.js" defer></script>
+
+</head>
+<body>
+  <nav>
+    <h1>My Shop</h1>
+    <!-- Search Box -->
+    <form id="searchForm" action="product-list.html">
+      <input
+        type="text"
+        id="searchInput"
+        name="query"
+        placeholder="Search for a product..."
+        required
+      />
+      <button type="submit">Search</button>
+    </form>
+  </nav>
+</body>
+</html>
