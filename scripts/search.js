@@ -10,4 +10,3 @@ document.getElementById("searchForm").addEventListener("submit", (e) => {
       window.location.href = `product-list.html?query=${encodeURIComponent(query)}`;
     }
   });
-  
